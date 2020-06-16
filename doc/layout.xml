@@ -22,7 +22,7 @@
     <tab type="examples" visible="yes" title="Code examples" intro=""/>  
     <tab type="user" visible="yes" url="http://ugcs.com" title="UgCS site"/>
   </navindex>
-
+  
   <!-- Layout definition for a class page -->
   <class>
     <briefdescription visible="yes"/>

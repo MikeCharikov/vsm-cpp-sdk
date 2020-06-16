@@ -1,0 +1,13 @@
+/**
+
+\mainpage VSM C++ SDK
+
+@details
+
+ - @subpage ucs_vsm_overview_page
+ - @subpage getting_started
+ - @subpage ucs_vsm_manual_page
+ - @subpage tutorials_page
+ - @subpage license_page
+ 
+*/

@@ -1,0 +1,17 @@
+/**
+
+@page ucs_vsm_manual_page Manual
+
+@details
+
+
+ 
+ - @subpage vehicle_interface_page
+ 
+ - @subpage async_programming_page
+
+ - @subpage service_discovery_page
+
+ - @subpage ucs_vsm_protocol_page
+ 
+*/

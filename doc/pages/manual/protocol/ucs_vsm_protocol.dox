@@ -29,7 +29,6 @@ See also @ref register_vehicle_message
 Detailed decription is in following sections:
 
  - Protocol definition file: @subpage ucs_vsm_proto_page
- - @subpage ucs_vsm_overview_page
  - @subpage ucs_vsm_registration_page
  - @subpage ucs_vsm_fields_page
  - @subpage ucs_vsm_telemetry_page

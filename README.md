@@ -1,9 +1,9 @@
-VSM SDK {#mainpage}
+Getting Started {#getting_started}
 ============
 
 C++ VSM SDK for [Universal ground Control Software](http://www.ugcs.com/ "UgCS").
 
-## General information
+## General information {#general_information}
 
 C++ VSM SDK is implemented using C++ language (C++14 standard) which is also a requirement
 for SDK users code.
@@ -13,7 +13,7 @@ VSM SDK uses CMake as its build system to keep it platform independent.
 Essentially what CMake does is it wraps the platform specific build
 commands/files under common interface. Out-of-source builds are supported and recommended.
 
-### System requirements
+## System requirements {#system_req}
 
 Currently supported build toolchains/compilers and their respective versions are:
 - Python 2.7
@@ -32,7 +32,7 @@ Mac:
 - OSX High Sierra and above
 - Clang Apple LLVM version 9.0.0+
 
-## Setting up the build environment
+## Setting up the build environment {#setting_up}
 
 Below are instructions on how to prepare build environment on Windows and Ubuntu Linux.<br>
 After the required components are installed the workflow is identical on all platforms.<br>
@@ -77,9 +77,13 @@ Ubuntu 16.04+ has all the required packages in default repositories.
 
 Your should use install latest XCode. After that you can run CMake in the same way as on other platforms.
 
-## Eclipse setup (optional)
+## IDEs setup (optional) {#ides_setup}
 
-Eclipse is recommended IDE for all platforms.
+### CLion setup
+
+ TODO
+
+### Eclipse setup
 
 You should have the latest Java for eclipse to run.
 
@@ -102,7 +106,7 @@ Eclipse project features:
 Lastly under Project/Properties/C++General/Preprocessor Includes/Providers:
 Check the "CDT GCC built in compiler settings" checkbox.
 
-## Compiling SDK
+## Compiling SDK {#compiling_sdk}
 
 OEM manufacturers and enthusiasts are supposed to compile the SDK by themselves
 so source code is provided for them (https://github.com/UgCS/vsm-cpp-sdk),
