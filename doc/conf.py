@@ -51,11 +51,11 @@ html_theme = 'sphinx_rtd_theme'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+#html_static_path = ['_static']
 
 
 # Specify the path to Doxyrest extensions for Sphinx:
-sys.path.insert(1, os.path.abspath('f:/!Utils/Doxyrest/sphinx/'))
+sys.path.insert(1, os.path.abspath('../../doxyrest-bin/share/doxyrest/sphinx/'))
 extensions += ['doxyrest', 'cpplexer']
 exclude_patterns += ['page_index.rst']
 
